@@ -1,0 +1,51 @@
+#grid2 .animated-text{
+  position:fixed;
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row: 1/2;
+    color: #fff;
+    top: 0%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: #2980b9;
+    padding: 40px;
+    height: 100px;
+    /*overflow: hidden;*/
+  }
+  
+  #grid2 .line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  
+  #grid2 .line:first-child{
+    animation: anim 12s infinite;
+  }
+  
+  @keyframes anim {
+  
+
+   0%{
+      margin-top :120px;
+    }
+    16%{
+      margin-top : 80px;
+    }
+    33%{
+      margin-top : 40px;
+    }
+    50%{
+      margin-top : 0px;
+    }
+    66%{
+      margin-top : 40px;
+    }
+    82%{
+      margin-top : 80px;
+    }
+    100%{
+      margin-top : 120px;
+    }
+  }

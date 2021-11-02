@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="Mycss1.css">
+  <link rel="stylesheet" href="nav.css">
+  <style type="text/css">
+    #menuTable {
+      display: none;
+    }
+
+    #seemore {
+      display: none;
+    }
+  </style>
+  <script type="text/javascript" src="myMenu.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4LGH979ZD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K4LGH979ZD');
+  </script>
+</head>
+
+<body>
+  <div id="grid">
+    <div>
+      <h2><a href="Introduce1.html"><strong style="color:black;">정다원 Jung Da-won</strong></a></h2>
+    </div>
+    <ul>
+      <li style="color: black; text-align: right;"><a href="resume1.html">About</a></li>
+      <li style="color:black;"><a href="Resume2.html">Projects</a></li>
+      <li style="color:black"><a href="MyWorks.html">Activities</a></li>
+      <li style="color:black"><a href="MyWorks.html">Internship</a></li>
+    </ul>
+  </div>
+
+
+  <div id="grid2">
+    <div class="circle1">
+      <button type="button" onmouseover="myMenu(1)" onmouseout="myMenu(2)" value="메뉴감추기"> About </button>
+      <div id="menuTable">
+        <button type="button" onmouseover="myMenu(1)" onmouseout="myMenu(2)" value="메뉴감추기">
+          <p> 99.10.18 </p>
+          <p>010.0000.0000</p>
+          <p>dawon0000@gmail.com</p>
+          <p>&nbsp; </p>
+          <p><strong>학력</strong></p>
+          <p>XX 대학교 아트앤테크놀로지학과(주) </p>
+          <p>커뮤니케이션학과(부)</p>
+          <p>2000.03~2000.0700대학교 (재)</p>
+          <p>&nbsp; </p>
+          <p><strong>경력</strong></p>
+          <p>00회사 인턴 서비스 및 콘텐츠 기획 직무</p>
+          <p> 2000.03~2000.07</p>
+          <p>&nbsp; </p>
+          <p>&nbsp; </p>
+          <p>&nbsp; </p>
+          <p>&nbsp; </p>
+          <p>&nbsp; </p>
+
+        </button> </div>
+  
+      <div id="seemore">
+        <button type="button" onmouseover="myMenu(1)" onmouseout="myMenu(2)" onclick="location.href='resume1.html'">→
+          See more</button>
+      </div>
+      </div>
+    <div class="maintext">
+      <h3><strong>자기소개서 한문장 넣기</strong></h3>
+      <p> 별도 템플릿 사용 없이 기획, 디자인, 코딩 모두 직접한 웹 포트폴리오입니다.</p>
+    </div>
+  </div>
+
+  <div id="grid3">
+    <div>
+      <h3>텍스트 몇줄정도 넣기</h3>
+      <p>어쩌구 저쩌구 한문장</p>
+      <p>저쩌구 어쩌구 지원동기라던가 그런거 한문장</p>
+      <p>그래서 그래서 한문장</p>
+    </div>
+  </div>
+
+  <div class="nav">
+    <input type="checkbox" id="active"></input>
+    <label for="active" class="menu-btn">MENU<i class="fas fa-bars"></i></label>
+    <div class="wrapper">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Activities</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Interhship</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="grid4">
+    <h1> Internship </h1>
+    <h3> 회사명 </h3>
+    XX회사<br>
+    <h3> 재직기간</h3>
+    2000.00~2000.00<br>
+    <h3> 직무 </h3>
+    서비스 및 콘텐츠 기획<br>
+    <h3>
+      역할
+    </h3>
+    어쩌구~~~~~~~~~~~~~~~<br>
+    <h3>경력사항 정리</h3>
+    <ol>
+      어쩌구 프로젝트</li><br>
+      ~~~ 하기</li><br>
+      이거저거 하기</li><br>
+      ~~~ 담당</li>
+    </ol>
+  </div>
+
+  <!--div id="text">
+    <span style=" font-size: 50px;"><strong>Welcome to my portfolio</strong></span>
+      <p>별도의 템플릿 사용없이 HTML, CSS, JAVA를 이용하여 제작한 포트폴리오 페이지입니다.</p>
+    </div>
+    <div class="circle1">
+      <button type="button" onclick="location.href='https://wondajung.github.io/portfolio_first/ProjectButton.html';"> GroupProject</button>
+    </div>
+    <div class="circle2">
+      <button type="button" onclick="location.href='https://wondajung.github.io/portfolio_first/ProjectButton.html';"> GroupProject</button>
+    </div>
+    <div class="circle3">
+      <button type="button" onclick="location.href='https://wondajung.github.io/portfolio_first/ProjectButton.html';"> GroupProject</button>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#firstwork">1st work</a></li>
+        <li><a href="#secondwork">2nd work</a></li>
+        <li><a href="#thridwork">See All</a></li>
+        <li><a href="#fourthwork">3rd work</a></li>
+        <li><a href="#SeeAll">4th work</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="grid3">
+    <p style="margin-top: 100px;"><strong> 정다원 Jung Da-won </strong></p>
+    <p> 1999.10.18</p>
+    <p> 서강대학교(재학, 7학기) 주전공 아트앤테크놀로지/부전공 커뮤니케이션</p>
+    <p> 010-2776-9803 </p>
+    <p> jungda1018@naver.com </p>
+  </div-->
+
+</body>
+<html>
