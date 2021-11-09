@@ -14,8 +14,13 @@ body { margin: 0px; padding: 0px; }
 #grid2 { display: grid; grid-template-columns: 0.7fr 0.7fr 1fr; } 
 #grid2 .leftside { font-size: 50px; font-weight: bold; margin-left: 120px; margin-top: 100px;  } 
 #grid2 .right { font-size: 50px; font-weight:normal; margin-top: 175px; line-height: 70%;} 
-#grid3 {margin-top: 100px; display:grid; grid-template-columns: 1fr 0.5fr; background: linear-gradient(-70deg,#a2d0ff, #c1c8e4);}
+#grid3 {margin-top: 100px; display:grid; grid-template-columns: 1fr 0.5fr; background: linear-gradient(-45deg,#a2d0ff, #c1c8e4);}
 #grid3 p{font-weight: normal;padding-left: 50px;font-size: 31px; margin-bottom: 50px;}
-#grid3 ul{font-size: 0;}#grid3 li{margin-left: 20px; font-size: 17px; margin-top:15px; margin-bottom:15px; list-style:none;}
+#grid3 ul{font-size: 0; list-style: none;text-decoration: none;}
+#work li{margin-left: 20px; font-size: 17px; margin-top:15px; margin-bottom:15px; }
+#work a{text-decoration: none; color:black;}
+#work a:hover{color:#da70bb;}
 #grid3 img{padding-right: 50px; margin-top:65px;opacity: 0;}
 #grid3 .work li:hover #imgage{opacity: 1;}
+#grid4 {background: white; }
+#grid4 p{font-weight: normal; padding-right: 50px;font-size: 31px; margin-bottom: 50px;text-align: right;}
